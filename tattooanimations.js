@@ -13,7 +13,7 @@ $(window).on("scroll",function(){
 $(window).on("scroll",function(){
 		var scroll= $(window).scrollTop()
 		$("#about").hide();
-		if(scroll>=414){
+		if(scroll>=438){
 			$("#about").show();
 			$("#about").addClass("animated flipInX");
 		}
@@ -21,7 +21,7 @@ $(window).on("scroll",function(){
 $(window).on("scroll",function(){
 		var scroll= $(window).scrollTop()
 		$("#bigimage").hide();
-		if(scroll>=500){
+		if(scroll>=490){
 			$("#bigimage").show();
 			$("#bigimage").addClass("animated bounceIn");
 		}
