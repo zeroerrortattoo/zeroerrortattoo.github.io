@@ -67,7 +67,7 @@ $(window).on("scroll",function(){
 
 $(window).on("scroll",function(){
 	var scroll= $(window).scrollTop()
-	if(scroll>=2527){
+	if(scroll<=3000){
 		$("i").not($("#add")).addClass("animated infinite swing");
 		}
 });
