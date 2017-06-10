@@ -41,7 +41,7 @@ $(window).on("scroll",function(){
 		for(i=5;i<=8;i++){
 
 			$("#"+i).hide();
-			if(scroll>=1956){
+			if(scroll>=1856){
 			$("#"+i).show();
 			$("#"+i).addClass("animated rotateInUpLeft");
 			}
@@ -49,7 +49,7 @@ $(window).on("scroll",function(){
 		for(i=9;i<=12;i++){
 
 			$("#"+i).hide();
-			if(scroll>=2204){
+			if(scroll>=2100){
 			$("#"+i).show();
 			$("#"+i).addClass("animated rotateInUpRight");
 			}
@@ -59,7 +59,7 @@ $(window).on("scroll",function(){
 $(window).on("scroll",function(){
 		var scroll= $(window).scrollTop()
 		$("#belownav").hide();
-		if(scroll>=2443){
+		if(scroll>=2396){
 			$("#belownav").show();
 			$("#belownav").addClass("animated bounceIn");
 		}
@@ -67,7 +67,7 @@ $(window).on("scroll",function(){
 
 $(window).on("scroll",function(){
 	var scroll= $(window).scrollTop()
-	if(scroll<=3000){
+	if(scroll<=5000){
 		$("i").not($("#add")).addClass("animated infinite swing");
 		}
 });
