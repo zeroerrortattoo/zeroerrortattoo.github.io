@@ -62,18 +62,18 @@ i.fa.fa-map-marker>p{
 } 
 
 div#row1{
-	background-image: url("black.jpg");
+	background-image: url("https://rawgit.com/zeroerrortattoo/zeroerrortattoo.github.io/master/black.jpg");
 }
 
 div#row2{
-	background-image: url("black.jpg");
+	background-image: url("https://rawgit.com/zeroerrortattoo/zeroerrortattoo.github.io/master/black.jpg");
 
 }
 body{
-	background-image: url("floral.jpg");
+	background-image: url("https://rawgit.com/zeroerrortattoo/zeroerrortattoo.github.io/master/Floral.jpg");
 }
 .well{
-	background-image: url("floral.jpg") !important;
+	background-image: url("https://rawgit.com/zeroerrortattoo/zeroerrortattoo.github.io/master/Floral.jpg") !important;
 }
 img.img-circle.img-fluid.img-responsive {
     margin-left: 80px;
