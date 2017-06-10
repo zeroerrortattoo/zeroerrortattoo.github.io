@@ -1,0 +1,80 @@
+#header
+{
+	
+	min-height: 200px;
+}
+#gifdivision
+{
+	#background-color: darkgrey;
+	height:auto;
+	margin-top:-20px;
+}
+div.col-md-4
+{
+	#background-color: lightgrey;
+	#height: 300px;
+	#border: 2px solid red;
+}
+.thumb:nth-child(odd)
+{
+	clear: both;
+}
+.col-md-5
+{
+	#border: 2px solid green;
+}
+.nav>li>a
+{
+	padding-right: 80px !important;
+}
+
+@media (max-width :497px){
+	.myh1{
+		font-size: 20px;}
+	.well{
+	min-height: 300px;}
+	h6.myh6{
+		margin-top: 10px !important;
+	}
+}
+@media (min-width: 768px){
+	
+	ul.navbar-nav.list-inline>li{
+	margin-top: 20px !important;}
+	.col-xs-12.col-md-4>i {
+    margin-top: 20px;
+	padding-left: 0px !important;}
+}
+input.btn.btn-success.pull-right {
+    margin-right: 20px !important;}
+
+.navbar-collapse.in {
+    overflow-y: inherit;
+}
+i.fa.fa-map-marker {
+	font-size:30px !important;
+	#margin-left: 70px !important;
+}
+i.fa.fa-map-marker>p{
+	margin-left: 20px !important;
+	margin-top: -30px !important;
+	font-size: 20px !important;
+} 
+
+div#row1{
+	background-image: url("black.jpg");
+}
+
+div#row2{
+	background-image: url("black.jpg");
+
+}
+body{
+	background-image: url("floral.jpg");
+}
+.well{
+	background-image: url("floral.jpg") !important;
+}
+img.img-circle.img-fluid.img-responsive {
+    margin-left: 80px;
+}
