@@ -13,7 +13,7 @@ $(window).on("scroll",function(){
 $(window).on("scroll",function(){
 		var scroll= $(window).scrollTop()
 		$("#about").hide();
-		if(scroll>=414 or scroll<=1000){
+		if(scroll>=414){
 			$("#about").show();
 			$("#about").addClass("animated flipInX");
 		}
