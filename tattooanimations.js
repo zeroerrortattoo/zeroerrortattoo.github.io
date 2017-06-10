@@ -59,7 +59,7 @@ $(window).on("scroll",function(){
 $(window).on("scroll",function(){
 		var scroll= $(window).scrollTop()
 		$("#belownav").hide();
-		if(scroll>=2800){
+		if(scroll>=2468){
 			$("#belownav").show();
 			$("#belownav").addClass("animated bounceIn");
 		}
@@ -67,7 +67,7 @@ $(window).on("scroll",function(){
 
 $(window).on("scroll",function(){
 	var scroll= $(window).scrollTop()
-	if(scroll>=2800){
+	if(scroll>=2468){
 		$("i").not($("#add")).addClass("animated infinite swing");
 		}
 });
